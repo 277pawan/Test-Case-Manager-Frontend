@@ -55,11 +55,11 @@ const Sidebar = () => {
             <div className="p-4 border-t border-purple-100 bg-white/30 backdrop-blur-sm">
                 <div className="flex items-center gap-3 mb-4 px-2">
                     <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white font-bold shadow-md">
-                        {user?.name?.charAt(0).toUpperCase() || user?.email?.charAt(0).toUpperCase() || 'U'}
+                        {user?.username?.charAt(0).toUpperCase() || user?.email?.charAt(0).toUpperCase() || 'U'}
                     </div>
                     <div className="flex-1 min-w-0">
                         <p className="text-sm font-semibold text-gray-800 truncate">
-                            {user?.name || 'User'}
+                            {user?.username || 'User'}
                         </p>
                         <p className="text-xs text-gray-600 truncate">{user?.email}</p>
                     </div>
