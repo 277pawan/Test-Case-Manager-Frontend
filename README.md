@@ -51,7 +51,13 @@ A modern, responsive React-based frontend for the Test Case Management System wi
 - **Permission Management**
   - Grant/revoke execution permissions (Admin)
   - View permitted users
+  - View permitted users
   - Permission modal interface
+
+- **Collaborative Features**
+  - **Email Alerts**: Get notified when assigned to a test case
+  - **Comments**: Discuss directly on Test Case pages
+  - **User Assignment**: Assign test cases during creation
 
 ### Role-Based Features
 
