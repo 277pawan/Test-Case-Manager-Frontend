@@ -5,6 +5,7 @@ import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card'
 import { Button } from '../components/ui/button';
 import { Badge } from '../components/ui/badge';
 import { ArrowLeft, Play } from 'lucide-react';
+import CommentsSection from '../components/CommentsSection';
 
 const TestCaseView = () => {
     const { id } = useParams<{ id: string }>();
@@ -127,7 +128,10 @@ const TestCaseView = () => {
                             </div>
                         </CardContent>
                     </Card>
+
                 )}
+
+                <CommentsSection testCaseId={Number(id)} />
             </div>
         </div>
     );
